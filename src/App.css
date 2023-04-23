@@ -1,5 +1,129 @@
 .App {
   text-align: center;
+  /* background-color: aqua; */
+  background-image: linear-gradient(aqua, rgb(99, 215, 70));
+  margin-bottom: 2%;
+}
+
+/* live news api */
+
+.mainDiv {
+  background-image: url('./news-background.png');
+  /* width: 1520px;
+  height: 7136px; */
+  /* background-repeat: round; */
+}
+
+.news-h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  /* margin-bottom: 75px; */
+  margin-bottom: 30px;
+}
+
+.outside-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: flex-start;
+}
+
+.outside-card a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.card {
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  width: 400px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.card-image {
+  height: 200px;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-image img{
+  width: 300px;
+}
+
+.card-title,
+.card-description {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  /* height: 150px; */
+  position: absolute;
+  width: 400px;
+  backdrop-filter: brightness(35%);
+  /* text-shadow: 0.5px 0.5px grey; */
+}
+
+.card-title p {
+  width: 300px;
+}
+
+.card-description {
+  font-size: 12px;
+}
+
+.getApiApp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.getApiAppTableDiv {
+  align-items: center;
+  width: 853px;
+}
+
+.space_btw_btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.getApiAppUpdateDiv {
+  align-items: center;
+  width: 666px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column nowrap;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.getApiAppUpdateDiv input {
+  width: 250px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.cap {
+  caption-side:top;
+  font-weight: 700;
+  font-size: xx-large;
+  text-align:center;
+}
+
+.Map {
+  text-align: center;
+  font-weight: 700;
 }
 
 .App-logo {
